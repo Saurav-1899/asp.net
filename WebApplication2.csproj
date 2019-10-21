@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D41CFB8-B1DA-4AE5-BE54-420524DDFCA2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Firstpage.aspx" />
+    <Content Include="image\1494134.jpg" />
+    <Content Include="image\5-backgrounds.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\521011652-612x612.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\523159398-612x612.jpg" />
+    <Content Include="image\6021781-background-images.jpg" />
+    <Content Include="image\613518332-612x612.jpg" />
+    <Content Include="image\8c2f2397-88b2-426c-8a51-a00c1aa1daa2.jpg" />
+    <Content Include="image\8d43006ae2b5cb50f87a17d111d2aa0d.jpg" />
+    <Content Include="image\931481362_preview_18e19ccc692200a0fd01313bde0f49646d818dce[1].jpg" />
+    <Content Include="image\abc.jpg" />
+    <Content Include="image\abstract-background-7.jpg" />
+    <Content Include="image\abstract-background-design_1297-87.jpg" />
+    <Content Include="image\Abstract-Wallpaper-Background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\blue-background-wallpaper.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\ceramic-tile-made-1.jpg" />
+    <Content Include="image\exterior-use-ceramic-3d-wall-tiles-500x500.jpg" />
+    <Content Include="image\Facebook_logo_%28square%29.png" />
+    <Content Include="image\gh.jpg" />
+    <Content Include="image\granite.jpg" />
+    <Content Include="image\images %281%29.jpg" />
+    <Content Include="image\images.jpg" />
+    <Content Include="image\img_parallax.jpg" />
+    <Content Include="image\instagram-Logo-PNG-Transparent-Background-download.png" />
+    <Content Include="image\marble-tile-250x250.jpg" />
+    <Content Include="image\milky-way-2695569_960_720.jpg" />
+    <Content Include="image\mosic.jpg" />
+    <Content Include="image\new_instagram_logo-1024x1024.jpg" />
+    <Content Include="image\onyx.jpg" />
+    <Content Include="image\onyx.jpg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\pexels-photo-168442.jpeg" />
+    <Content Include="image\pexels-photo-276514.jpeg" />
+    <Content Include="image\quart.jpg" />
+    <Content Include="image\quart.jpg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\sand.jpg" />
+    <Content Include="image\saurav.jpg.jpg" />
+    <Content Include="image\slate.jpg" />
+    <Content Include="image\slate.jpg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\ter.jpg" />
+    <Content Include="image\th %281%29.jpg" />
+    <Content Include="image\th.jpg" />
+    <Content Include="image\trav.jpg" />
+    <Content Include="image\twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png" />
+    <Content Include="image\we1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\wood.jpg" />
+    <Content Include="milky-way-2695569_960_720.jpg" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet10.css" />
+    <Content Include="StyleSheet11.css" />
+    <Content Include="StyleSheet12.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="StyleSheet3.css" />
+    <Content Include="StyleSheet4.css" />
+    <Content Include="StyleSheet5.css" />
+    <Content Include="StyleSheet6.css" />
+    <Content Include="StyleSheet7.css" />
+    <Content Include="StyleSheet9.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="User Registration.aspx" />
+    <Content Include="Admin Registartion.aspx" />
+    <Content Include="Admin Login.aspx" />
+    <Content Include="User Login.aspx" />
+    <Content Include="Forget Password.aspx" />
+    <Content Include="Items.aspx" />
+    <Content Include="Order.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="Contact Us.aspx" />
+    <Content Include="About Us.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Dummy.aspx" />
+    <Content Include="Contact Us1.aspx" />
+    <Content Include="User Login1.aspx" />
+    <Content Include="About Us1.aspx" />
+    <Content Include="Admin Login1.aspx" />
+    <Content Include="Feedback1.aspx" />
+    <Content Include="Admin Registration1.aspx" />
+    <Content Include="User Registration1.aspx" />
+    <Content Include="Items1.aspx" />
+    <Content Include="Payment1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Firstpage.aspx.cs">
+      <DependentUpon>Firstpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Firstpage.aspx.designer.cs">
+      <DependentUpon>Firstpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User Registration.aspx.cs">
+      <DependentUpon>User Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Registration.aspx.designer.cs">
+      <DependentUpon>User Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Registartion.aspx.cs">
+      <DependentUpon>Admin Registartion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin Registartion.aspx.designer.cs">
+      <DependentUpon>Admin Registartion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Login.aspx.cs">
+      <DependentUpon>Admin Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin Login.aspx.designer.cs">
+      <DependentUpon>Admin Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Login.aspx.cs">
+      <DependentUpon>User Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Login.aspx.designer.cs">
+      <DependentUpon>User Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forget Password.aspx.cs">
+      <DependentUpon>Forget Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forget Password.aspx.designer.cs">
+      <DependentUpon>Forget Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Items.aspx.cs">
+      <DependentUpon>Items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Items.aspx.designer.cs">
+      <DependentUpon>Items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us.aspx.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Us.aspx.designer.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dummy.aspx.cs">
+      <DependentUpon>Dummy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dummy.aspx.designer.cs">
+      <DependentUpon>Dummy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us1.aspx.cs">
+      <DependentUpon>Contact Us1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Us1.aspx.designer.cs">
+      <DependentUpon>Contact Us1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Login1.aspx.cs">
+      <DependentUpon>User Login1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Login1.aspx.designer.cs">
+      <DependentUpon>User Login1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About Us1.aspx.cs">
+      <DependentUpon>About Us1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us1.aspx.designer.cs">
+      <DependentUpon>About Us1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Login1.aspx.cs">
+      <DependentUpon>Admin Login1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin Login1.aspx.designer.cs">
+      <DependentUpon>Admin Login1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback1.aspx.cs">
+      <DependentUpon>Feedback1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback1.aspx.designer.cs">
+      <DependentUpon>Feedback1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Registration1.aspx.cs">
+      <DependentUpon>Admin Registration1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin Registration1.aspx.designer.cs">
+      <DependentUpon>Admin Registration1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Registration1.aspx.cs">
+      <DependentUpon>User Registration1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Registration1.aspx.designer.cs">
+      <DependentUpon>User Registration1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Items1.aspx.cs">
+      <DependentUpon>Items1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Items1.aspx.designer.cs">
+      <DependentUpon>Items1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment1.aspx.cs">
+      <DependentUpon>Payment1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment1.aspx.designer.cs">
+      <DependentUpon>Payment1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57321</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
